@@ -22,7 +22,7 @@
 >   é usada para marcar uma classe de configuração que declara um ou mais métodos
     @Bean e também aciona a configuração automática e a varredura de componentes
 
-spring Boot Dev Tools
+### spring Boot Dev Tools
 
 >   O objetivo é tentar melhorar o tempo de desenvolvimento
     ao trabalhar com o Spring Boot.
@@ -41,7 +41,11 @@ de manipulador específicas e/ou métodos de manipulador.
 @RequestMapping pode ser aplicado à classe do controlador, 
 bem como aos métodos.
 
-### Log4j2
+### @RequiredArgsConstructor
 
->
+> Gera um construtor com argumentos necessários.
 
+### @GetMapping 
+
+> é uma anotação composta que atua como um atalho para
+> @RequestMapping(method = RequestMethod. GET) .
