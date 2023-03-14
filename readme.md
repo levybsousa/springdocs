@@ -49,3 +49,15 @@ bem como aos métodos.
 
 > é uma anotação composta que atua como um atalho para
 > @RequestMapping(method = RequestMethod. GET) .
+
+### @Postmapping
+> @PostMapping faz parte de um grupo predefinido de 
+> anotações compostas que internamente usam @RequestMapping.
+> Essas anotações funcionam como atalhos que servem para simplificar o mapeamento dos métodos HTTP e expressar de forma
+> mais concisa os métodos de manipulação. 
+
+### @DeleteMapping 
+> @DeleteMapping is a composed annotation that acts as a 
+> shortcut for @RequestMapping(method = RequestMethod. DELETE)
+> Anotação para mapear solicitações HTTP DELETE em métodos 
+> de manipulador específicos.
