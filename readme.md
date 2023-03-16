@@ -1,7 +1,7 @@
-#   Spring docs
+#   springdocs
 
 
-## Annotations
+### Annotations
 
 ### @Component:
 
@@ -48,7 +48,7 @@ bem como aos métodos.
 ### @GetMapping 
 
 > é uma anotação composta que atua como um atalho para
-> @RequestMapping(method = RequestMethod. GET) .
+@RequestMapping(method = RequestMethod. GET) .
 
 ### @Postmapping
 > @PostMapping faz parte de um grupo predefinido de 
