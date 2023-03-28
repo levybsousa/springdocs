@@ -14,36 +14,31 @@
 >   é usado para injetar dependências automáticas.
     A estrutura Spring é construída sobre injeção de dependência e injetamos 
     as dependências de classe por meio do arquivo de configuração do bean spring.
-    
-##
 
-### springBootApplication 
-    
->   é usada para marcar uma classe de configuração que declara um ou mais métodos
-    @Bean e também aciona a configuração automática e a varredura de componentes
-
-### spring Boot Dev Tools
-
->   O objetivo é tentar melhorar o tempo de desenvolvimento
-    ao trabalhar com o Spring Boot.
-
-### @RestController
-
->   é uma anotação de conveniência para criar controladores Restful.
-É uma especialização de @Component e é autodetectada por meio da 
-varredura de caminho de classe. Ele adiciona as anotações @Controller 
-e @ResponseBody. Ele converte a resposta em JSON ou XML.
-
-### ResquestMapping
-
->   Ele é usado para mapear solicitações da Web em classes 
-de manipulador específicas e/ou métodos de manipulador.
-@RequestMapping pode ser aplicado à classe do controlador, 
-bem como aos métodos.
+------------------------------------------------
 
 ### @RequiredArgsConstructor
 
 > Gera um construtor com argumentos necessários.
+-------------------------------------------------------
+### Log4j
+> é uma biblioteca usada por desenvolvedores para 
+fazer logging, um processo que permite guardar registros, envio 
+de informações, processamento de dados, e é através desta biblioteca 
+que o sistema registra erros.
+> 
+### @RestController
+
+>   é uma anotação de conveniência para criar controladores Restful.
+É uma especialização de @Component e é autodetectada por meio da
+varredura de caminho de classe. Ele adiciona as anotações @Controller
+e @ResponseBody. Ele converte a resposta em JSON ou XML.
+### @ResquestMapping
+
+>   Ele é usado para mapear solicitações da Web em classes
+de manipulador específicas e/ou métodos de manipulador.
+@RequestMapping pode ser aplicado à classe do controlador,
+bem como aos métodos. 
 
 ### @GetMapping 
 
@@ -61,3 +56,13 @@ bem como aos métodos.
 > shortcut for @RequestMapping(method = RequestMethod. DELETE)
 > Anotação para mapear solicitações HTTP DELETE em métodos 
 > de manipulador específicos.
+------------------------------------------------------
+### springBootApplication
+
+>   é usada para marcar uma classe de configuração que declara um ou mais métodos
+@Bean e também aciona a configuração automática e a varredura de componentes
+
+### spring Boot Dev Tools
+
+>   O objetivo é tentar melhorar o tempo de desenvolvimento
+ao trabalhar com o Spring Boot.
